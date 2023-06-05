@@ -274,7 +274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277620755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.765, y: 0.669, z: 0}
+  m_LocalPosition: {x: 1.03, y: 0.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1518,8 +1518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ed65f13fa2842428fc551f5c3cc1b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slashAnimPrefab: {fileID: 0}
-  slashAnimSpawnPoint: {fileID: 0}
+  slashAnimPrefab: {fileID: 6449812003808056819, guid: d2058c55f31550e45a99618c5f5c0814, type: 3}
+  slashAnimSpawnPoint: {fileID: 277620756}
 --- !u!114 &1354968244
 MonoBehaviour:
   m_ObjectHideFlags: 0

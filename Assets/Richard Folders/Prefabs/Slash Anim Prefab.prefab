@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3162521881960228069}
   - component: {fileID: 4034664941660617010}
   - component: {fileID: 8772305831796803153}
+  - component: {fileID: -7183289213860984812}
   m_Layer: 0
   m_Name: Slash Anim Prefab
   m_TagString: Untagged
@@ -105,3 +106,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &-7183289213860984812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6449812003808056819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3ae90eedf0ead4782b1c4b576b0b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

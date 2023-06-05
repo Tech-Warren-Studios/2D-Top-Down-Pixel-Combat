@@ -45,6 +45,26 @@ public class Sword : MonoBehaviour
         slashAnim.transform.parent = this.transform.parent;
     }
 
+    public void SwingUpFlipAnim()
+    {
+        slashAnim.gameObject.transform.rotation = Quaternion.Euler(-180, 0, 0);
+
+        if (playerController.FacingLeft)
+        {
+            slashAnim.GetComponent<SpriteRenderer>().flipX = true;
+        }
+    }
+
+    public void SwingDownFlipAnim()
+    {
+        slashAnim.gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+
+        if (playerController.FacingLeft)
+        {
+            slashAnim.GetComponent<SpriteRenderer>().flipX = true;
+        }
+    }
+
     private void MouseFollowWithOffset()
     {
         Vector3 mousePos = Input.mousePosition;
