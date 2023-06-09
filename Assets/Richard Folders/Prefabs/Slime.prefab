@@ -122,7 +122,7 @@ Transform:
   m_Children:
   - {fileID: 3677796448532710631}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1842275293535545162
 SpriteRenderer:
@@ -276,6 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
+  deathVFXPreafab: {fileID: 8837053795810445558, guid: 47107f260863d014a9f18bfa65fc140f, type: 3}
 --- !u!114 &6992420057621667659
 MonoBehaviour:
   m_ObjectHideFlags: 0
