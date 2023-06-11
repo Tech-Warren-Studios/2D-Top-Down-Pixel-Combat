@@ -782,6 +782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   dashSpeed: 4
+  myTrailRenderer: {fileID: 2011035504}
 --- !u!95 &588538796
 Animator:
   serializedVersion: 5
@@ -1713,7 +1714,7 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -0.018553853, y: 2.3544316}
-      - {x: 0.8857755, y: 0.6800941}
+      - {x: 0.42896575, y: 0.7127234}
       - {x: 0.06159991, y: -0.53070927}
       - {x: 2.4988327, y: -0.5121553}
       - {x: 2.212719, y: 2.1087427}
@@ -2349,7 +2350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011035502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2397,7 +2398,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Time: 0.15
   m_PreviewTimeScale: 1
   m_Parameters:
@@ -2408,20 +2409,29 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.26772282
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9653286
+        value: 0.039367676
+        inSlope: 0.19610432
+        outSlope: 0.19610432
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.084130086
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.6273585, g: 1, b: 0.88720345, a: 1}
-      key1: {r: 1, g: 0.9892756, b: 0.6462264, a: 1}
+      key1: {r: 1, g: 0.9892756, b: 0.6462264, a: 0.44705883}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -2458,7 +2468,7 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_MaskInteraction: 0
   m_Autodestruct: 0
-  m_Emitting: 1
+  m_Emitting: 0
   m_ApplyActiveColorSpace: 1
 --- !u!1001 &2107291145
 PrefabInstance:
