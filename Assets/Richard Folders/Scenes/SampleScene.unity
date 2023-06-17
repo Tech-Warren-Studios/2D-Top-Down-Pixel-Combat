@@ -21105,6 +21105,7 @@ GameObject:
   - component: {fileID: 1705208248}
   - component: {fileID: 1705208251}
   - component: {fileID: 1705208250}
+  - component: {fileID: 1705208252}
   m_Layer: 0
   m_Name: Canopy
   m_TagString: Untagged
@@ -27779,7 +27780,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -39206,7 +39207,7 @@ Tilemap:
     m_Data: {fileID: 1212519841, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
   - m_RefCount: 74
     m_Data: {fileID: -405047322, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
-  - m_RefCount: 1293
+  - m_RefCount: 1292
     m_Data: {fileID: 1151314499, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
   - m_RefCount: 13
     m_Data: {fileID: 2079126645, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
@@ -39214,7 +39215,7 @@ Tilemap:
     m_Data: {fileID: -1860688754, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: 7852920, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
-  - m_RefCount: 142
+  - m_RefCount: 143
     m_Data: {fileID: 927359257, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
   - m_RefCount: 12
     m_Data: {fileID: 1201280172, guid: a2697c91cd8081c449fb92224aef082e, type: 3}
@@ -39322,6 +39323,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transparencyAmount: 0.8
   fadeTime: 0.35
+--- !u!114 &1705208252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705208246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d271175afa03e34486f4f7d4344e921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxOffset: -0.15
 --- !u!1001 &1710095171
 PrefabInstance:
   m_ObjectHideFlags: 0
