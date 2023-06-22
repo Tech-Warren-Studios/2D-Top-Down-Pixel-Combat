@@ -39,11 +39,11 @@ public class TransparentDetection : MonoBehaviour
         {
             if (spriteRenderer)
             {
-            StartCoroutine(FadeRoutine(spriteRenderer, fadeTime, spriteRenderer.color.a, 1));
+            StartCoroutine(FadeRoutine(spriteRenderer, fadeTime, spriteRenderer.color.a, 1f));
             }
             else if (tilemap)
             {
-                StartCoroutine(FadeRoutine(tilemap, fadeTime, tilemap.color.a, 1));
+                StartCoroutine(FadeRoutine(tilemap, fadeTime, tilemap.color.a, 1f));
             }
         }
     }
