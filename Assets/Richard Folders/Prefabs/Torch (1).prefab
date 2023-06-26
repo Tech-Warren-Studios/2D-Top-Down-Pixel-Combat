@@ -241,7 +241,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!1 &6765665532891027043
 GameObject:
@@ -338,6 +338,7 @@ GameObject:
   - component: {fileID: 3665185436774751346}
   - component: {fileID: 8461092783529726582}
   - component: {fileID: 6842816591681282819}
+  - component: {fileID: 601728320423644045}
   m_Layer: 0
   m_Name: Flame
   m_TagString: Untagged
@@ -380,7 +381,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 32c47e4c12982874699120ba5acedb86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -433,3 +434,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &601728320423644045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8151945919893703834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d15b5b86655d0c4cb0d2d4d7fbd54c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
