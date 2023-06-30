@@ -583,7 +583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277620756}
   m_Layer: 0
-  m_Name: Slash Animation Spawn Point
+  m_Name: SlashAnimationSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1284,7 +1284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.759396, y: -2.3755128, z: -9.980237}
+  m_LocalPosition: {x: 22.770864, y: -2.3755128, z: -9.980237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1597,6 +1597,7 @@ MonoBehaviour:
   moveSpeed: 4
   dashSpeed: 4
   myTrailRenderer: {fileID: 2011035504}
+  weaponCollider: {fileID: 1358335854}
 --- !u!95 &588538796
 Animator:
   serializedVersion: 5
@@ -46772,7 +46773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 894150bf5a4f7ee479f1ec3707a4c63c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActiveWeapon: {fileID: 0}
 --- !u!1 &1957782498
 GameObject:
   m_ObjectHideFlags: 0
@@ -47154,7 +47154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045508341}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7736328, y: -0.9755329, z: -9.980237}
+  m_LocalPosition: {x: 3.7621639, y: -0.9755329, z: -9.980237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
