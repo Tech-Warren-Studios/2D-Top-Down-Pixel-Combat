@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Staff : MonoBehaviour, Iweapon
+public class Staff : MonoBehaviour, IWeapon
 {
+
+    [SerializeField] private WeaponInfo weaponInfo;
+
     private void Update()
     {
         MouseFollowWithOffset();
@@ -12,7 +15,11 @@ public class Staff : MonoBehaviour, Iweapon
     public void Attack()
     {
         Debug.Log("Staff Attack");
-        ActiveWeapon.Instance.ToggleIsAttacking(false);
+    }
+
+    public WeaponInfo GetWeaponInfo()
+    {
+        return weaponInfo;
     }
 
     private void MouseFollowWithOffset()
