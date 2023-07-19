@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7080747147053756870
 SpriteRenderer:
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!70 &5142989848763267068
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,8 +120,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0014225799, y: 0.03698689}
-  m_Size: {x: 0.9231819, y: 0.45373434}
+  m_Offset: {x: 0.494164, y: 0.0026080618}
+  m_Size: {x: 0.9346136, y: 0.44398803}
   m_Direction: 1
 --- !u!50 &8383478069402945474
 Rigidbody2D:
@@ -162,7 +162,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cfa5e3fc4810043a6d03598c66b4d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 1
 --- !u!114 &2858074434756023595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,3 +174,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cce5a1c5ba6b61448dbee9073830dc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserGrowTime: 0.22
