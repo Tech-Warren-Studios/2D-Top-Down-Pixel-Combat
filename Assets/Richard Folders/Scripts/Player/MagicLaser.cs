@@ -45,6 +45,7 @@ public class MagicLaser : MonoBehaviour
 
             yield return null;
         }
+        StartCoroutine(GetComponent<SpriteFade>().SlowFadeRoutine());
     }
 
     private void LaserFaceMouse()
