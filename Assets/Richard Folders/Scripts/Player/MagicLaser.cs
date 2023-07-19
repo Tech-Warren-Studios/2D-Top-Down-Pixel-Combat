@@ -4,15 +4,35 @@ using UnityEngine;
 
 public class MagicLaser : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private float laserRange;
+    private SpriteRenderer spriteRenderer;
+
+    private void Awake()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        LaserFaceMouse();
+        StartCoroutine(IncreaseLaserLengthRoutine());
+    }
+
+    public void UpdateLaserRange(float laserRange)
+    {
+        this.laserRange = laserRange;
+    }
+
+    private IEnumerator IncreaseLaserLengthRoutine()
+    {
+
+    }
+
+    private void LaserFaceMouse()
+    {
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        Vector2 direction = transform.position - mousePosition;
+        transform.right = -direction;
     }
 }

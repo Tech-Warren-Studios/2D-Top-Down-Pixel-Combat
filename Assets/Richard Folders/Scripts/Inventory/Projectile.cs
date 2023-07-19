@@ -33,7 +33,6 @@ public class Projectile : MonoBehaviour
 
         if(!other.isTrigger && (enemyHealth || indestructible))
         {
-        enemyHealth?.TakeDamage(weaponInfo.weapoonDamage);
         Instantiate(particleOnHitPrefabVFX, transform.position, transform.rotation);
         Destroy(gameObject);
         }

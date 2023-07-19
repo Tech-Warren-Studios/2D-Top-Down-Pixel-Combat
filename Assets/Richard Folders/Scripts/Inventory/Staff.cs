@@ -13,10 +13,14 @@ public class Staff : MonoBehaviour, IWeapon
 
     readonly int AttackHash = Animator.StringToHash("Attack");
 
+
+    private void Awake()
+    {
+        myAnimator = GetComponent<Animator>();
+    }
     private void Update()
     {
         MouseFollowWithOffset();
-        myAnimator = GetComponent<Animator>();
     }
 
     public void Attack()
@@ -27,6 +31,7 @@ public class Staff : MonoBehaviour, IWeapon
     public void SpawnStaffProjectileAnimEvent()
     {
         GameObject newlaser = Instantiate(magicLaser, magicLaserSpawnPoint.position, Quaternion.identity);
+        newlaser.GetComponent<MagicLaser>().UpdateLaserRange(weaponInfo.weaponRange);
     }
 
 
