@@ -125,7 +125,7 @@ Transform:
   m_Children:
   - {fileID: 3782491153147387387}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5060421257840956973
 SpriteRenderer:
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
-  attackRange: 5
+  attackRange: 10
   enemyType: {fileID: 4092502893009753094}
   attackCooldown: 2
   stopMovingWhenAttacking: 1
