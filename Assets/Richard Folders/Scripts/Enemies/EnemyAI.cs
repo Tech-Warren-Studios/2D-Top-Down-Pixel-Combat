@@ -16,6 +16,7 @@ public class EnemyAI : MonoBehaviour
 
     private State state;
     private EnemyPathfinding enemyPathfinding;
+    private Vector2 roamPosition;
 
     private void Awake()
     {
@@ -25,9 +26,42 @@ public class EnemyAI : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(RoamingRoutine());
+        roamPosition = GetRoamingPosition();
     }
 
+    private void Update()
+    {
+        MovementStateControl();
+    }
+
+    private void MovementStateControl()
+    {
+        switch (state)
+        {
+            default:
+                case State.Roaming:
+                Roaming();
+                break;
+
+                case State.Attacking:
+                    Attacking();
+                break;
+                    
+        }
+    }
+
+    private void Roaming()
+    {
+
+    }
+
+    private void Attacking()
+    {
+
+    }
+
+
+    /* 
     private IEnumerator RoamingRoutine()
     {
         while(state == State.Roaming)
@@ -37,6 +71,7 @@ public class EnemyAI : MonoBehaviour
             yield return new WaitForSeconds(roamChangeDirFloat);
         }
     }
+    */
 
     private Vector2 GetRoamingPosition() 
     {
