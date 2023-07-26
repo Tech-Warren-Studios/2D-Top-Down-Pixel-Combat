@@ -257,6 +257,7 @@ MonoBehaviour:
   attackRange: 5
   enemyType: {fileID: 4092502893009753094}
   attackCooldown: 2
+  stopMovingWhenAttacking: 1
 --- !u!114 &7780617039102117178
 MonoBehaviour:
   m_ObjectHideFlags: 0

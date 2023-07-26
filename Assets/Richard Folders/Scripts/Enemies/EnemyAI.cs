@@ -9,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float attackRange = 5f;
     [SerializeField] private MonoBehaviour enemyType;
     [SerializeField] private float attackCooldown = 2f;
+    [SerializeField] private bool stopMovingWhenAttacking = false;
 
     private bool canAttack = true;
 
@@ -76,10 +77,24 @@ public class EnemyAI : MonoBehaviour
 
     private void Attacking()
     {
-        if (canAttack)
+        if (Vector2.Distance(transform.position, PlayerController.Instance.transform.position) > attackRange)
+        {
+            state = State.Roaming;
+        }
+
+        if (attackRange != 0 && canAttack)
         {
             canAttack = false;
             (enemyType as IEnemy).Attack();
+
+            if (stopMovingWhenAttacking)
+            {
+                enemyPathfinding.StopMoving();
+            }
+            else
+            {
+                enemyPathfinding.MoveTo(roamPosition);
+            }
 
             StartCoroutine(AttackCooldownRoutine());
         }
