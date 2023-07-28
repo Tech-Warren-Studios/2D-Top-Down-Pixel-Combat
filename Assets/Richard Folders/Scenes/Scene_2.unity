@@ -70616,6 +70616,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4092502893009753094, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
+      propertyPath: angleSpread
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092502893009753094, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
+      propertyPath: startingDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092502893009753094, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
+      propertyPath: timeBetweenBursts
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092502893009753094, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
+      propertyPath: projectilesPerBurst
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6401257806075378278, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
       propertyPath: m_Name
       value: Ghost with bloom
