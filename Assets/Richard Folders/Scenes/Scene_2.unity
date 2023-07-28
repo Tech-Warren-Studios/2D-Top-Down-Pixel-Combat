@@ -463,8 +463,8 @@ Transform:
   - {fileID: 1472729910}
   - {fileID: 1885764460}
   - {fileID: 40490894}
-  - {fileID: 8736098934871375648}
   - {fileID: 1930793943}
+  - {fileID: 8736098934871375648}
   - {fileID: 1967902204}
   - {fileID: 1479946900}
   m_Father: {fileID: 0}
@@ -37391,6 +37391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost with bloom
       objectReference: {fileID: 0}
+    - target: {fileID: 6401257806075378278, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70490,6 +70494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost with bloom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6401257806075378278, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70570,11 +70578,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904493094204520273, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3007555
+      value: 1.44
       objectReference: {fileID: 0}
     - target: {fileID: 3904493094204520273, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.287701
+      value: -7.28
       objectReference: {fileID: 0}
     - target: {fileID: 3904493094204520273, guid: 05576da83fb2eb34f9099c75bc87194e, type: 3}
       propertyPath: m_LocalPosition.z
