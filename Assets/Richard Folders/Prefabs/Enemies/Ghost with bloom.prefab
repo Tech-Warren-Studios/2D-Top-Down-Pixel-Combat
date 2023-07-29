@@ -357,3 +357,5 @@ MonoBehaviour:
   startingDistance: 0
   timeBetweenBursts: 0.3
   restTime: 0.5
+  stagger: 0
+  oscillate: 0

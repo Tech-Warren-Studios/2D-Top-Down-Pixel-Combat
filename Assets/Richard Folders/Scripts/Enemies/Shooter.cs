@@ -12,6 +12,8 @@ public class Shooter : MonoBehaviour, IEnemy
     [SerializeField] private float startingDistance = 0.1f;
     [SerializeField] private float timeBetweenBursts;
     [SerializeField] private float restTime = 1f;
+    [SerializeField] private bool stagger;
+    [SerializeField] private bool oscillate;
 
     private bool isShooting = false;
 
@@ -28,8 +30,14 @@ public class Shooter : MonoBehaviour, IEnemy
         isShooting = true;
 
         float startAngle, currentAngle, angleStep;
+        float timeBetweenProjectiles = 0f;
         
         TargetConeOfInfluence(out startAngle, out currentAngle, out angleStep);
+
+        if (stagger)
+        {
+            timeBetweenProjectiles = timeBetweenBursts / projectilesPerBurst;
+        }
 
         for (int i = 0; i < burstCount; i++)
         {
