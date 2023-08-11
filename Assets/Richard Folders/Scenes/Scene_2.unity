@@ -19069,7 +19069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1705208247
 Transform:
   m_ObjectHideFlags: 0
@@ -70665,6 +70665,10 @@ PrefabInstance:
     - target: {fileID: 1172503388559270085, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_Name
       value: Grape
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172503388559270085, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5348195314778052749, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_RootOrder
