@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
-public class ScreenShakeManager : MonoBehaviour
+public class ScreenShakeManager : Singleton<ScreenShakeManager>
 {
-    // Start is called before the first frame update
-    void Start()
+    private CinemachineImpulseSource source;
+
+    protected override void Awake()
     {
-        
+        base.Awake();
+        source = GetComponent<CinemachineImpulseSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ShakeScreen()
     {
-        
+        source.GenerateImpulse();
     }
 }
