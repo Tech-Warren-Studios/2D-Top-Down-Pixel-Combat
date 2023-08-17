@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Health Globe
+  m_Name: Coin Yellow
   m_Shader: {fileID: -6465566751694194690, guid: e5e2f126b17979d47b1f62e2e5bfa32f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,7 +42,7 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 9.082412, g: 0.12852445, b: 5.707126, a: 0}
+    - _Color: {r: 5.5908813, g: 2.7134795, b: 0.38956112, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8568936424399950548
 MonoBehaviour:

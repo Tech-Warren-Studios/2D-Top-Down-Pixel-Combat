@@ -24,7 +24,10 @@ public class PickUpSpawner : MonoBehaviour
         {
             int randomAmountOfGold = Random.Range(1, 4);
 
-            Instantiate(goldCoin, transform.position, Quaternion.identity);
+            for (int i = 0; i < randomAmountOfGold; i++)
+            {
+                Instantiate(goldCoin, transform.position, Quaternion.identity);
+            }
         }
     }
 }
