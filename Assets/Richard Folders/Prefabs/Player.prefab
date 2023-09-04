@@ -680,3 +680,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullStaminaImage: {fileID: 0}
   emptyStaminaImage: {fileID: 0}
+  timeBetweenStaminaRefresh: 3
