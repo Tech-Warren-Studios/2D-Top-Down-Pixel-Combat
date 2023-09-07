@@ -678,6 +678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a23b9942599d7e545bdafda602986acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullStaminaImage: {fileID: 0}
-  emptyStaminaImage: {fileID: 0}
+  fullStaminaImage: {fileID: 21300000, guid: 4cebf38a4d15db747908126b2e2acc37, type: 3}
+  emptyStaminaImage: {fileID: 21300000, guid: 0e3b6fcf85aca5c43a689d2bea15432a, type: 3}
   timeBetweenStaminaRefresh: 3

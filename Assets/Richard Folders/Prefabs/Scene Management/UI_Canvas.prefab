@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 5053953264185858730}
   - component: {fileID: 6801074943854345514}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Stamina Globe Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,7 +1116,7 @@ GameObject:
   - component: {fileID: 7989864589945976295}
   - component: {fileID: 743068559414078758}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Stamina Globe Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 2843775261707353250}
   - component: {fileID: 3399581607101830027}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Stamina Globe Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
