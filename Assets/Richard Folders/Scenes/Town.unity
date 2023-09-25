@@ -243,13 +243,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 204072739}
   lines:
-  - I know there are ghosts, but don't just break into my house!!! (left click to
-    continue)
+  - I know there are ghosts and monsters, but don't just break into my house!!! (left
+    click to continue)
   - Fight them off!!!!
   - Use WASD keys to move.
-  - 'Space bar to dash '
-  - Left click to attack
-  - and the number keys 1 through 3 to change weapon
+  - Space bar to dash.
+  - Left click to attack.
+  - and the number keys 1-3 to change weapon.
   textSpeed: 0.0001
   index: 2
 --- !u!114 &23567589
@@ -412,7 +412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5348195314778052749, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.148354
+      value: 9.79
       objectReference: {fileID: 0}
     - target: {fileID: 5348195314778052749, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -473,7 +473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5348195314778052749, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.132244
+      value: 13.47
       objectReference: {fileID: 0}
     - target: {fileID: 5348195314778052749, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19911,7 +19911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 691326860524368506, guid: eeb05bdd091c9624eabbc3e0f58bdaa8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.4
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 691326860524368506, guid: eeb05bdd091c9624eabbc3e0f58bdaa8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38549,7 +38549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5348195314778052749, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.1497393
+      value: 13.12
       objectReference: {fileID: 0}
     - target: {fileID: 5348195314778052749, guid: a438de341805b6e4ebbd504c13afd4e5, type: 3}
       propertyPath: m_LocalPosition.z
