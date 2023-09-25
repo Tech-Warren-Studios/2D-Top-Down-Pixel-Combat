@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.6745098}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1094,17 +1094,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6836679262933271561, guid: 53e63f8db86b7284ab60ea8cfce88997, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4289218585196144083, guid: 53e63f8db86b7284ab60ea8cfce88997, type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4289218585196144083, guid: 53e63f8db86b7284ab60ea8cfce88997, type: 3}
+      propertyPath: m_Volume
+      value: 0.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289218585196144083, guid: 53e63f8db86b7284ab60ea8cfce88997, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 305e476539c18db439f895f8d3c78a4a, type: 3}
     - target: {fileID: 7512913994883240059, guid: 53e63f8db86b7284ab60ea8cfce88997, type: 3}
       propertyPath: m_Name
       value: Managers
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 6836679262933271561, guid: 53e63f8db86b7284ab60ea8cfce88997, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53e63f8db86b7284ab60ea8cfce88997, type: 3}
