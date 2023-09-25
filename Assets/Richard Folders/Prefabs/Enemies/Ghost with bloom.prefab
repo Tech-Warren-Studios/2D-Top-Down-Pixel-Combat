@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 7390456646802647940}
   - component: {fileID: 6465927332538599877}
   - component: {fileID: 4092502893009753094}
+  - component: {fileID: 6052487770712425601}
   m_Layer: 0
   m_Name: Ghost with bloom
   m_TagString: Untagged
@@ -125,7 +126,7 @@ Transform:
   m_Children:
   - {fileID: 3782491153147387387}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5060421257840956973
 SpriteRenderer:
@@ -254,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
-  attackRange: 10
+  attackRange: 0
   enemyType: {fileID: 4092502893009753094}
   attackCooldown: 2
   stopMovingWhenAttacking: 1
@@ -359,3 +360,18 @@ MonoBehaviour:
   restTime: 0.1
   stagger: 1
   oscillate: 1
+--- !u!114 &6052487770712425601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6401257806075378278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f4b73336c493d649a0843a5787d45ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 4956351030800820396, guid: 326e10b181fce424b9624c5ce57705e1, type: 3}
+  healthGlobe: {fileID: 4956351030800820396, guid: 15a9a03dd631a464686ef7ee0397de29, type: 3}
+  staminaGlobe: {fileID: 4956351030800820396, guid: e5041ec71703ebe4eadea064beec70fa, type: 3}
