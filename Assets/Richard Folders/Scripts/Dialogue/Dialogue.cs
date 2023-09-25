@@ -8,14 +8,14 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-
     public int index;
 
-
-    private void Start()
+    private void OnEnable()
     {
+        // Pause the game when the dialogue starts
+        Time.timeScale = 0;
         textComponent.text = string.Empty;
-        startDialogue();
+        StartDialogue();
     }
 
     private void Update()
@@ -25,17 +25,16 @@ public class Dialogue : MonoBehaviour
             if (textComponent.text == lines[index])
             {
                 NextLine();
-            } 
+            }
             else
             {
                 StopAllCoroutines();
-                textComponent.text = lines[index];  
+                textComponent.text = lines[index];
             }
         }
     }
 
-
-    private void startDialogue()
+    private void StartDialogue()
     {
         index = 0;
         StartCoroutine(TypeLine());
@@ -46,10 +45,9 @@ public class Dialogue : MonoBehaviour
         foreach (char c in lines[index].ToCharArray())
         {
             textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
+            yield return new WaitForSecondsRealtime(textSpeed); // Use WaitForSecondsRealtime while game is paused
         }
     }
-
 
     void NextLine()
     {
@@ -61,7 +59,18 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            gameObject.SetActive(false); // Make sure to set the gameObject inactive after unpausing the game
+            Time.timeScale = 1; // Resume the game when the dialogue is over
+        }
+    }
+
+    private void OnDisable()
+    {
+        // Just in case if the object is disabled without finishing the dialogue
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
         }
     }
 }
+
