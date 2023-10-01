@@ -226,7 +226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -382, y: 218}
+  m_AnchoredPosition: {x: 40, y: 372}
   m_SizeDelta: {x: -200, y: -604.1331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23567588
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: dd076fc47e9f3e24388258b6bffcddd3, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4866,6 +4866,7 @@ GameObject:
   - component: {fileID: 795172962}
   - component: {fileID: 795172964}
   - component: {fileID: 795172963}
+  - component: {fileID: 795172965}
   m_Layer: 0
   m_Name: Building_1_Roof
   m_TagString: Untagged
@@ -4999,6 +5000,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transparencyAmount: 0.403
   fadeTime: 0.4
+--- !u!114 &795172965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795172960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e764f40e0dd1a524c8bfc679ccda9e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 795172964}
 --- !u!1001 &808997592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5664,11 +5678,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7154890726180826559, guid: b80ec60153f5d6c4ea30f4ebf05961f5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.996514
+      value: 2.3965142
       objectReference: {fileID: 0}
     - target: {fileID: 7154890726180826559, guid: b80ec60153f5d6c4ea30f4ebf05961f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.625523
+      value: -12.895523
       objectReference: {fileID: 0}
     - target: {fileID: 7209065282741614471, guid: b80ec60153f5d6c4ea30f4ebf05961f5, type: 3}
       propertyPath: m_RootOrder
@@ -19466,11 +19480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6330688733408039530, guid: 0c580481ec29df3418ef5ec7557cad23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.33
+      value: 2.73
       objectReference: {fileID: 0}
     - target: {fileID: 6330688733408039530, guid: 0c580481ec29df3418ef5ec7557cad23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.65
+      value: -11.92
       objectReference: {fileID: 0}
     - target: {fileID: 6330688733408039530, guid: 0c580481ec29df3418ef5ec7557cad23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20046,7 +20060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677679252}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5186441, y: -10.979692, z: 0}
+  m_LocalPosition: {x: -0.45, y: -9.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40926,7 +40940,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2110432000}
   - component: {fileID: 2110432001}
-  - component: {fileID: 2110432003}
   - component: {fileID: 2110432002}
   m_Layer: 0
   m_Name: Building_1_Base
@@ -41049,20 +41062,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.15574, y: 4.037484}
   m_EdgeRadius: 0
---- !u!114 &2110432003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110431999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ef58fbca9f47e645b4d68801d4d50fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transparencyAmount: 0.8
-  fadeTime: 0.4
 --- !u!1 &2111848687
 GameObject:
   m_ObjectHideFlags: 0
