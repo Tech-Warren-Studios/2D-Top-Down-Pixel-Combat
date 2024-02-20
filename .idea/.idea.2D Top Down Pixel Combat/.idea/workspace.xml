@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71626e79-d312-4700-8408-333ad8c1de1d" name="Changes" comment="" />
+    <list default="true" id="71626e79-d312-4700-8408-333ad8c1de1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Top Down Pixel Combat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Top Down Pixel Combat/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708383537327</updated>
       <workItem from="1708383550551" duration="389000" />
-      <workItem from="1708384061834" duration="412000" />
+      <workItem from="1708384061834" duration="1520000" />
     </task>
     <servers />
   </component>
